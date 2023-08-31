@@ -31,7 +31,7 @@
           if (jQuery(this).data('rough_color') != '') {
             color = jQuery(this).data('rough_color');
           } else {
-            color = '#fd4a18';
+            color = '#0d6efd';
           }
           if (jQuery(this).data('rough_type') != '') {
             type = jQuery(this).data('rough_type');
