@@ -607,7 +607,7 @@ Container
 
 section {
 	position: relative;
-	padding: 130px 0px;
+	padding: 50px 0px;
 }
 
 .container {
@@ -2562,6 +2562,7 @@ Section Title
 .pq-section.pq-style-1.text-center {
 	padding: 0 15em;
 	margin-bottom: 78px;
+	margin-top: -40px;
 }
 
 .pq-section.pq-style-1.text-left {
@@ -2679,7 +2680,7 @@ Icon Boxes
 }
 
 .pq-icon-box.pq-style-3 .pq-icon {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .pq-icon-box.pq-style-3 .pq-icon i {
@@ -5838,7 +5839,7 @@ process step
 
 .pq-process-2 .pq-before-img-1 {
 	position: absolute;
-	top: 55%;
+	top: 45%;
 	right:70%;
 	margin-top: 0px;
 	height: 37px;
@@ -5846,7 +5847,7 @@ process step
 
 .pq-process-2 .pq-before-img-2 {
 	position: absolute;
-	top: 55%;
+	top: 45%;
 	right: 45%;
 	margin-top: 0px;
 	height: 37px;
@@ -5854,14 +5855,14 @@ process step
 
 .process-3 .pq-before-img-1 {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	right: 70%;
 	margin-top: 0px;
 	height: 37px;
 }
 .process-2 .pq-before-img-3 {
 	position: absolute;
-	top: 55%;
+	top: 45%;
 	right: 20%;
 	margin-top: 0px;
 	height: 37px;
@@ -6519,8 +6520,8 @@ Custom CSS
 	padding: 130px 0;
 }
 
-.pq-pt-200{
-	padding-top: 200px;
+.pq-pt-100{
+	padding-top: 100px;
 }
 
 .partner .pq-p-90-30{
