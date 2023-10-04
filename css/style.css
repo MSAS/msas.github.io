@@ -607,7 +607,7 @@ Container
 
 section {
 	position: relative;
-	padding: 50px 0px;
+	padding: 100px 0px;
 }
 
 .container {
@@ -5839,7 +5839,7 @@ process step
 
 .pq-process-2 .pq-before-img-1 {
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	right:70%;
 	margin-top: 0px;
 	height: 37px;
