@@ -6,9 +6,9 @@ jQuery('.pq-section-title').each(function () {
 
     var main_text = jQuery(this).data('title_text');
     var regEx = new RegExp(high_text, "i");
-    // console.log(high_text);
-    // console.log(text);
-    // console.log(main_text);
+     console.log(high_text);
+     console.log(text);
+     console.log(main_text);
 
     result = main_text.match(regEx);
     console.log(result);
