@@ -5832,6 +5832,11 @@ process step
 	margin-top: 5px;
 	margin-bottom: 0;
 }
+.pq-progressbar-content i{
+	color: white;	
+    width: 1.25em;
+    height: 1em;
+}
 
 .pq-process-2 .pq-button {
 	display: none;
