@@ -2559,7 +2559,35 @@ footer#pq-footer .pq-footer-style-1 .pq-footer-top {
 	margin: 0;
 	border: unset;
 }
+.phonWrap{
+	display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.phoneNo{
+	display: flex;
+    flex-flow: column;
+    padding-top: 12px;
+    padding-left: 6px;
+}
+.messageWrap{
+	display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.MessageBox{
+	display: flex;
+    flex-flow: column;
+    padding-top: 16px;
+    padding-left: 10px;
+}
 
+
+
+
+.scrollable-list-item a{
+	scroll-padding-top: 100px;
+}
 
 /*================================================
 Section Title
@@ -6824,3 +6852,17 @@ Custom CSS
  .testimonials-name{
 	margin-bottom: 0;
  }
+
+ @media (max-width:574px) {
+	.pq-footer-items .navbar-brand img{
+		max-width: 180px;
+	}
+}
+@media (max-width:1450px){
+	.pq-icon-box-wrapper .pq-icon a{
+		display: flex;
+		justify-content: center;
+		max-width: 62px;
+		margin: 0 auto;
+	}
+}	
