@@ -1155,6 +1155,11 @@ Blog-sidebar
 
 /*================================================
 Blog
+
+
+
+
+
 ================================================*/
 
 .blog{
@@ -2595,7 +2600,7 @@ Section Title
 
 .pq-section.pq-style-1.text-center {
 	padding: 0 15em;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	/* margin-top: -40px; */
 }
 
@@ -2758,6 +2763,9 @@ Icon Boxes
 	color: var(--white-color);
 	font-size: 62px;
 	line-height: 1;
+}
+.pq-icon-box.pq-style-4 .pq-icon img{
+font-size: 62px!important;
 }
 
 .pq-icon-box.pq-style-4 .pq-icon-box-content a {
@@ -6850,7 +6858,7 @@ Custom CSS
   line-height: 120%;
  }
  .testimonials-name{
-	margin-bottom: 0;
+	margin-bottom: 20;
  }
 
  @media (max-width:574px) {
@@ -6866,3 +6874,10 @@ Custom CSS
 		margin: 0 auto;
 	}
 }	
+
+
+@media (max-width:1450px){
+	.pq-section-pq-style-1-text-center{
+		margin-bottom: 0;
+	}
+}
