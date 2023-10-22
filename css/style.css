@@ -3598,6 +3598,7 @@ Portfolio Box
 .pq-portfoliobox-2 {
 	position: relative;
 	overflow: hidden;
+	border: 1px solid black;
 }
 
 .pq-portfoliobox-2 .pq-portfolio-img {
@@ -6921,4 +6922,17 @@ Custom CSS
 
 }
 }
+.testimonials-meta{
+	display: flex;
+	gap:32px;
+	align-items: center;
 
+}
+.testimonials-meta img{
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+}
+.testimonials-meta .test h2{
+	line-height: 30px;
+}
