@@ -6607,7 +6607,7 @@ Custom CSS
 }
 
 .pq-pt-100{
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .partner .pq-p-90-30{
@@ -6946,4 +6946,10 @@ Custom CSS
     max-width:400px;
     height: auto;
 } 
+@media (max-width: 768px) {
+	.footer-lists {
+		flex-direction: column;
+		align-items: center;
+	}
+}
 
